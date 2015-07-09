@@ -48,6 +48,7 @@ if (process.env.VHOSTS) {
 } else {
   try {
     vhostConfig = require('../vhost-config')
+    logger.log('info','vhostConfig: ' + vhostConfig);
   } catch (e) {
     console.log('No valid vhost config found')
   }
@@ -56,6 +57,7 @@ logger.log('info','vHost as is: '+vhostConfig);
 
 // Set up a route for each domain
 for (var domain in vhostConfig) {
+  logger.log('info','vhostConfig: ' + vhostConfig[domain]);
   setupRoute(domain, vhostConfig[domain])
 }
 
