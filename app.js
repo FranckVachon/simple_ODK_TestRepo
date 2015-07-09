@@ -11,7 +11,7 @@ var app = express()
 /** Logger **/
 var logger = requite('./logger')
 logger.debugLevel = 'info';
-logger.loc('info','Logger is working'):
+logger.loc('info','Logger is working');
 
 app.use(morgan('dev'))
 
