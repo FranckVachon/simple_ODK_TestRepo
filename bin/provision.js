@@ -14,6 +14,10 @@ var publickey = fs.readFileSync(process.env.HOME + '/.ssh/id_rsa.pub', 'utf-8')
 var keyFingerprint = fingerprint(publickey)
 
 var cloudInit = fs.readFileSync(__dirname + '/cloud-init.sh', 'utf-8')
+var logger = require('../logger')
+logger.debugLevel = 'info';
+logger.log('info','provision.sh');
+
 
 var config = {
   name: 'simple-odk',
