@@ -24,6 +24,8 @@ var vhost = require('vhost')
 var extend = require('xtend/mutable')
 
 var checkConfig = require('../helpers/check-config')
+var logger = require('../logger')
+logger.debugLevel = 'info';
 
 var formStores = {
   github: require('./github'),
@@ -50,6 +52,7 @@ if (process.env.VHOSTS) {
     console.log('No valid vhost config found')
   }
 }
+logger.log('info','vHost as is: '+vhostConfig);
 
 // Set up a route for each domain
 for (var domain in vhostConfig) {
@@ -64,8 +67,10 @@ function setupRoute (domain, config) {
       extend(req.params, config)
       formStores[config.formStore](req, res, next)
     }))
+    logger.log('info','Inside setupRoute: '+domain+' '+config);
   } catch (e) {
     console.error(e.message)
+    logger.log('info','setupRoute failed');
   }
 }
 
