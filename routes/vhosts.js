@@ -26,6 +26,7 @@ var extend = require('xtend/mutable')
 var checkConfig = require('../helpers/check-config')
 var logger = require('../logger')
 logger.debugLevel = 'info';
+logger.log('info','routes/vhosts.js: ');
 
 var formStores = {
   github: require('./github'),
