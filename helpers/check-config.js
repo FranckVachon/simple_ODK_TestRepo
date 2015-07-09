@@ -3,7 +3,7 @@ var debug = require('debug')('simple-odk:check-config')
 var logger = require('../logger')
 logger.debugLevel = 'info';
 logger.log('info','Check-config helpers ');
-logger.log('info','Config.formstore '+config.formStore);
+//logger.log('info','Config.formstore '+config.formStore);
 
 module.exports = function (config, route) {
   logger.log('info','Module.export function ');
