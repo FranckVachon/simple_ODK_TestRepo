@@ -20,6 +20,7 @@ app.get('/', function (req, res) {
 })
 
 app.use('/', vhosts)
+logger.log('info','vhosts: '+ vhosts);
 
 app.use('/gh/:user/:repo', github)
 //logger.log('info','Github: '+ github);
