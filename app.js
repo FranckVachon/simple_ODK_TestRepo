@@ -22,13 +22,15 @@ app.get('/', function (req, res) {
 app.use('/', vhosts)
 
 app.use('/gh/:user/:repo', github)
+logger.log('info','Github: '+ github);
+
 
 app.use('/fb/:appname', firebase)
-
+logger.log('info','Firebase: '+ firebase);
 app.use('/gist/:gist_id', gist)
-
+//logger.log('info','Github: '+ github);
 app.use('/:alias', aliases)
-
+logger.log('info','Aliases: '+ aliases);
 // Handle errors
 app.use(error)
 
