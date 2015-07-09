@@ -7,9 +7,11 @@ var firebase = require('./routes/firebase')
 var gist = require('./routes/gist')
 var aliases = require('./routes/aliases')
 var error = require('./controllers/error-handler')
-
 var app = express()
-
+/** Logger **/
+var logger = requite('./logger')
+logger.debugLevel = 'info';
+logger.loc('info','Logger is working'):
 
 app.use(morgan('dev'))
 
