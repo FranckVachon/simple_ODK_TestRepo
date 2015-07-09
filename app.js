@@ -10,6 +10,21 @@ var error = require('./controllers/error-handler')
 
 var app = express()
 
+/** Quick custom logger  **/
+var logger = exports;
+logger.debugLevel = 'info';
+logger.log = function(level, message) {
+   var levels = ['error','warn','info'];
+   if (levels.indexOf(level) >= levels.indexOf(logger.debugLevel)) {
+      if (typeof message !== 'string') {
+      message = JSON.stringify(message);
+      };
+      console.log(level+': '+message); 
+   }
+}
+/** End of logger **/
+
+
 app.use(morgan('dev'))
 
 app.get('/', function (req, res) {
