@@ -9,7 +9,7 @@ var aliases = require('./routes/aliases')
 var error = require('./controllers/error-handler')
 var app = express()
 /** Logger **/
-var logger = requite('./logger')
+var logger = require('./logger')
 logger.debugLevel = 'info';
 logger.loc('info','Logger is working');
 
