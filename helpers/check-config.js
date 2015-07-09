@@ -1,5 +1,9 @@
 var debug = require('debug')('simple-odk:check-config')
 
+var logger = require('../logger')
+logger.debugLevel = 'info';
+logger.log('info','Check-config helpers ');
+
 module.exports = function (config, route) {
   switch (config.formStore) {
     case 'github':
