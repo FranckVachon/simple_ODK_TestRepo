@@ -22,7 +22,7 @@ var aliasConfig = {
     formStore: 'firebase',
     appname: 'myappname',
     s3bucket: 'mys3bucket'
-  }
+  } 
 }
 
 process.env.ALIASES = JSON.stringify(aliasConfig)
