@@ -22,3 +22,6 @@ exports.config = {
     level: 'info'
   }
 }
+var logger = require('./logger')
+logger.debugLevel = 'info';
+logger.log('info','Export.config.app_name: '+exports.config.app_name);
