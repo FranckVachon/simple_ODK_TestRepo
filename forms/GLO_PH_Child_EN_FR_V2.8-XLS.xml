@@ -1,0 +1,1805 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Global SENS Infant and Child Questionnaire V2.8-XLS</h:title>
+    <model>
+      <itext>
+        <translation lang="Français">
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/THINPOR/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBF:label">
+            <value>ACE [INSÉRER ACE DISPONIBLES DANS LE CONTEXTE LOCAL ET UTILISER NOMS LOCAUX]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORM/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XFood:label">
+            <value>Maintenant je voudrais vous poser des questions sur les aliments que <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> a pu manger. Je voudrais savoir si votre enfant a reçu un des aliments suivants même s’il a été mélangé à une autre nourriture. Durant la journée ou la nuit d’hier, est-ce que <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> a reçu un des aliments suivants ?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATLQD/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EVERBF/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/SURVDATE_c:label">
+            <value>Date d’entretien</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME:label">
+            <value>Nom de l'enfant</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOOD/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/CAMP_c:label">
+            <value>Cochez le camp dans lequel vous effectuez cette enquête</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WEIGHT:hint">
+            <value>N'oubliez pas les décimales.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XDOBK/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/CLUSTER_c:label">
+            <value>Numéro de grappe</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF:label">
+            <value>ATPE [INSÉRER ATPE DISPONIBLES DANS LE CONTEXTE LOCAL ET UTILISER NOMS LOCAUX]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/SEX/m:label">
+            <value>Masculin</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORM:label">
+            <value>Lait maternisé, par exemple [INSÉRER MARQUES DE LAIT MATERNISÉ DISPONIBLES LOCALEMENT, TOUS TYPES]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/JUICE/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA:label">
+            <value>Vit. A dans les 6 derniers mois</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF:label">
+            <value>Combien de temps après la naissance avez-vous mis <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> au sein pour la première fois ?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/VSUPCON/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WHTEACOF/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/JUICE:label">
+            <value>Jus ou boissons à base de jus, par exemple [INSÉRER MARQUE DE JUS OU BOISSONS À BASE DE JUS DISPONIBLES LOCALEMENT]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORMFE/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF/3:label">
+            <value>Plus de 24 heures</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOOD/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/JUICE/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YOGURT/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF/1:label">
+            <value>Moins d'une heure</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF/2:label">
+            <value>Entre 1 et 23 heures</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MILK/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/REFER:label">
+            <value>Enfant référé pour anémie ?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XEligRef:label">
+            <value>L'enfant a-t-il été référencié à un programme d'alimentation ?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL:label">
+            <value>Enfant enregistré</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES:hint">
+            <value>(enfants de 6 à 59 mois)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MUAC:hint">
+            <value>N'oubliez pas les décimales.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBFSUPER/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/VINT/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/SEX:label">
+            <value>Sexe de l'enfant ?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YESTBF/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATER/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/DIAR:label">
+            <value>Diarrhée dans les 2 dernières semaines</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BOTTLE/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATLQD/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/REFER/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/DIAR/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF:hint">
+            <value>(MONTRER SACHET)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATLQD:label">
+            <value>Tout autre liquide à base d’eau, par exemple [INSÉRER LIQUIDES À BASE D’EAU DISPONIBLES DANS LE CONTEXTE LOCAL ET UTILISER NOMS LOCAUX] (ex: sodas, autres boissons sucrées, tisanes, boisson anti-coliques, thé sans lait, café sans lait, liquides traditionnels)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/SECTION:label">
+            <value>Code section / numéro</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHHB:label">
+            <value>Hb (g/dL)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/CAMP_c/CCC:label">
+            <value>CCC</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS:hint">
+            <value>S’il n’existe pas de documentation pour l’âge, estimer celui-ci à l’aide du calendrier d’événements locaux. Si une documentation officielle de l’âge est disponible, inscrire l’âge en mois à partir de la date de naissance.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EVERBF/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORMFE:label">
+            <value>Lait maternisé [INSÉRER MARQUES DE LAIT MATERNISÉ ENRICHIES EN FER DISPONIBLES LOCALEMENT]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/THINPOR/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORMFE/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/ID:label">
+            <value>ID de l'enfant</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XEligRef/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP:hint">
+            <value>(MONTRER SACHET DE POUDRE DE MICRONUTRIMENTS)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATER/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XBIRTHDATE:hint">
+            <value>La date de naissance exacte ne doit être prise qu’à partir d’un document spécifiant le jour, le mois et l’année de naissance. Celle-ci est inscrite seulement si une documentation officielle de l’âge est disponible ; le fait que la mère fournisse la date exacte de mémoire n’est pas considéré comme suffisamment fiable. Laisser vide si une documentation officielle de l’âge n’est pas disponible.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WEIGHT:label">
+            <value>Poids (kg)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/VSUPCON:label">
+            <value>Superviseur : Je confirme que le questionnaire est complet.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XDOBK/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WHTEACOF/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MILK/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES:label">
+            <value>Rougeole</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/VINT/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BROTH/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MILK:label">
+            <value>Lait en boîte, en poudre, ou lait frais d’origine animale par exemple [INSÉRER MARQUES DE LAIT EN BOÎTE OU EN POUDRE DISPONIBLES LOCALEMENT]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/VINT:label">
+            <value>Enquêteur : Je confirme que le questionnaire est complet.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FLESHFD:label">
+            <value>Viande [INSÉRER LES TYPES DE VIANDE, POISSONS, VOLAILLE ET FOIE/ABATS UTILISÉS DANS LE CONTEXTE LOCAL]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BROTH/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBFSUPER:label">
+            <value>ACE ++ [INSÉRER ACE++ DISPONIBLES DANS LE CONTEXTE LOCAL ET UTILISER NOMS LOCAUX]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST/3:label">
+            <value>Absent</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EDEMA/y:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BROTH:label">
+            <value>Bouillon clair</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBF/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YESTBF/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA/2:label">
+            <value>Oui, de mémoire</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EDEMA/n:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/HHN:label">
+            <value>MN numéro</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/BLOCK:label">
+            <value>Code bloc</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/PicEdema:label">
+            <value>Prenez une photo de l'oedème ; attention à la mise au point.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/HEIGHT:hint">
+            <value>N'oubliez pas les décimales.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MILK/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/DIAR/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XBIRTHDATE:label">
+            <value>Date de naissance</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BOTTLE/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATLQD/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XLiquid:label">
+            <value>Maintenant je voudrais vous poser des questions sur les liquides que <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> a peut-être reçus hier durant la journée ou la nuit. Je voudrais savoir si votre enfant a reçu un des liquides suivants même s’il a été mélangé à une autre nourriture. Durant la journée ou la nuit d’hier, est-ce que <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> a reçu un des liquides suivants ?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/BLOCK:hint">
+            <value>Numérique ou Alphabétique</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EVERBF:label">
+            <value>Est-ce que <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> a déjà été allaité(e) ?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOODFE:label">
+            <value>INSERER TOUT ALIMENT SOLIDE, SEMI-SOLIDE OU MOU ENRICHI EN FER DESTINÉ AUX NOURRISSONS ET JEUNES ENFANTS DISPONIBLES DANS LE CONTEXTE LOCAL ET DIFFÉRENTS DE CEUX QUI SONT DISTRIBUÉ S ET UTILISER LES NOMS DE MARQUES UTILISÉS LOCALEMENT]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBFSUPER/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WHTEACOF/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORM/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOODFE/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL:hint">
+            <value>(enfants de 6 à 59 mois)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA:hint">
+            <value>(MONTRER CAPSULE)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBFSUPER/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS:label">
+            <value>Veuillez entrer l'âge en mois</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/ZONE:label">
+            <value>Code zone / numéro</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/VSUPCON/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WHTEACOF:label">
+            <value>Thé avec du lait ou café au lait</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA/3:label">
+            <value>Non ou ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/SEX/f:label">
+            <value>Féminin</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BROTH/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FLESHFD/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST:label">
+            <value>Le ménage at-il donné son consentement à la prise de mesures sur l'enfant ?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS:label">
+            <value>SNL [INSÉRER SNL DISPONIBLES DANS LE CONTEXTE LOCAL ET UTILISER NOMS LOCAUX]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOOD:label">
+            <value>Durant la journée ou la nuit d’hier, est-ce que <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> a mangé des aliments solides ou semi-solides ?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES/2:label">
+            <value>Oui, de mémoire</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF:label">
+            <value>ASPE [INSÉRER ASPE DISPONIBLES DANS LE CONTEXTE LOCAL ET UTILISER NOMS LOCAUX]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/THINPOR:label">
+            <value>Bouillie légère, par exemple [INSÉRER NOMS LOCAUX]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/HEIGHT:label">
+            <value>Taille (cm)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS:hint">
+            <value>(MONTRER SACHET / POT)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FLESHFD/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BOTTLE/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FLESHFD/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORM/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF:hint">
+            <value>(MONTRER SACHET)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C:label">
+            <value>Questionnaire enfants</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOODFE/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XEligRef/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EVERBF/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHHB:hint">
+            <value>N'oubliez pas les décimales.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATER/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL/3:label">
+            <value>Aucun</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BOTTLE:label">
+            <value>Est-ce que <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> a bu quelque chose au biberon durant la journée ou la nuit d’hier ?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES/1:label">
+            <value>Oui, carte</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBF/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/JUICE/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOODFE/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/CAMP_c/AAA:label">
+            <value>AAA</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalcCheck:label">
+            <value>Vérifiez que l'enfant est bien âgé de <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc "/> mois. Rappelez-vous que s'ils ont plus de 59 mois, ils ne peuvent être inclus dans l'enquête.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP:label">
+            <value>Durant la journée ou la nuit d’hier, est-ce que <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> a consommé une nourriture à laquelle vous avez ajouté [INSÉRER NOM LOCAL DONNÉ A LA POUDRE DE MICRONUTRIMENTS OU SPRINKLES] comme celui-ci ?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YOGURT:label">
+            <value>Lait caillé ou yaourt, par exemple [INSÉRER NOMS LOCAUX]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YOGURT/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOOD/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YESTBF:label">
+            <value>Est-ce que <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> a été allaité(e) durant la journée ou la nuit d’hier ?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL/2:label">
+            <value>CNT</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XDOBK:label">
+            <value>Connaissez-vous la date de naissance de <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> ?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES/3:label">
+            <value>Non ou ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YESTBF/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL/1:label">
+            <value>CNS</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YOGURT/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MUAC:label">
+            <value>Périmètre brachial (PB) (cm)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/REFER:hint">
+            <value>Référez au centre de santé si Hb inférieure à 7,0g/dL.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XEligRef:hint">
+            <value>Référez enfant au centre de santé si PB inférieur à 12,5 cm et n'est pas déjà enrôlé en CNS/PTA. Reféréz aussi l'enfant si présence d'OEDÈMES.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORMFE/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/CAMP_c/BBB:label">
+            <value>BBB</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/TEAM:label">
+            <value>Numéro d’équipe</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EDEMA:label">
+            <value>Oedème bilatéral</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/REFER/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA/1:label">
+            <value>Oui, carte</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/THINPOR/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/XCHILD:label">
+            <value>CE QUESTIONNAIRE DOIT ÊTRE ADMINISTRÉ À LA MÈRE OU À LA PERSONNE PRINCIPALEMENT EN CHARGE DE NOURRIR L’ENFANT ET L’ÂGE DE L’ENFANT DOIT SE SITUER ENTRE 0 ET 59 MOIS</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS/8:label">
+            <value>Ne sait pas</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATER:label">
+            <value>Eau claire</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP/2:label">
+            <value>Non</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/DIAR/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBF/2:label">
+            <value>Non</value>
+          </text>
+        </translation>
+        <translation default="true()" lang="English">
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/THINPOR/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBF:label">
+            <value>FBF [LIST FBF AVAILABLE IN THE LOCAL SETTING]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORM/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XFood:label">
+            <value>Now I would like to ask you about some particular foods <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> may eat. I am interested in whether your child had the item even if it was combined with other foods. Yesterday, during the day or at night, did <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/>&gt; consume any of the following?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATLQD/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EVERBF/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/SURVDATE_c:label">
+            <value>Date of Interview</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME:label">
+            <value>Name of the child</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOOD/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/CAMP_c:label">
+            <value>Tick the camp in which you conduct this survey</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WEIGHT:hint">
+            <value>Don't forget the decimal</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XDOBK/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/CLUSTER_c:label">
+            <value>Cluster number</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF:label">
+            <value>RUTF [LIST RUTF PRODUCTS AVAILABLE IN THE LOCAL SETTING]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/SEX/m:label">
+            <value>Male</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORM:label">
+            <value>Infant formula for example [ADD LOCALLY AVAILABLE BRAND NAMES OF FORTIFIED AND NON-FORTIFIED INFANT FORMULA]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/JUICE/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA:label">
+            <value>Vitamin A in past 6 months</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF:label">
+            <value>How long after birth did you first put <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> to the breast?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/VSUPCON/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WHTEACOF/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/JUICE:label">
+            <value>Juice or juice drinks [ADD LOCALLY AVAILABLE BRAND NAMES OF JUICE DRINKS]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORMFE/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF/3:label">
+            <value>24 hrs and more</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOOD/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/JUICE/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YOGURT/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF/1:label">
+            <value>Less than 1 hr</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF/2:label">
+            <value>Between 1 hr and 23 hrs</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MILK/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/REFER:label">
+            <value>Child referred for aenemia?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XEligRef:label">
+            <value>Has the child been referred to a feeding programme?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL:label">
+            <value>Is child enrolled in nutrition programme?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES:hint">
+            <value>(6-59 months children)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MUAC:hint">
+            <value>Don't forget the decimal</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBFSUPER/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/VINT/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/SEX:label">
+            <value>Sex of the child?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YESTBF/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATER/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/DIAR:label">
+            <value>Diarrhoea in past 2 weeks</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BOTTLE/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATLQD/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/REFER/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/DIAR/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF:hint">
+            <value>(SHOW SACHET)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATLQD:label">
+            <value>Any other water-based liquids [INSERT OTHER WATER-BASED LIQUIDS AVAILABLE IN THE LOCAL SETTING AND USE LOCAL NAMES]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/SECTION:label">
+            <value>Section number</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHHB:label">
+            <value>Haemoglobin (g/dL)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/CAMP_c/CCC:label">
+            <value>CCC</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS:hint">
+            <value>If no age documentation is available, estimate age using local event calendar. If an official age documentation is available, record the age in months from the date of birth.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EVERBF/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORMFE:label">
+            <value>Infant formula: for example [ADD LOCALLY AVAILABLE BRAND NAMES OF IRON FORTIFIED INFANT FORMULA]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/THINPOR/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORMFE/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/ID:label">
+            <value>Child ID</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XEligRef/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP:hint">
+            <value>SHOW TYPES OF MICRONUTRIENT POWDERS AVAILABLE IN THE LOCAL SETTING.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATER/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XBIRTHDATE:hint">
+            <value>The exact birth date should only be taken from an age documentation showing day, month and year of birth. Leave blank if no official age documentation is available.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WEIGHT:label">
+            <value>Weight (kg)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/VSUPCON:label">
+            <value>Supervisor: I confirm that questionnaire is complete</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XDOBK/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WHTEACOF/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MILK/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES:label">
+            <value>Measles</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/VINT/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BROTH/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MILK:label">
+            <value>Milk such as tinned, powdered, or fresh animal milk: for example [ADD LOCALLY AVAILABLE BRAND NAMES OF TINNED AND POWDERED MILK]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/VINT:label">
+            <value>Interviewer: I confirm that questionnaire is complete</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FLESHFD:label">
+            <value>Flesh Foods [LIST COMMON MEAT, FISH, POULTRY AND LIVER/ORGAN FLESH FOODS USED THE LOCAL SETTING]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BROTH/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBFSUPER:label">
+            <value>FBF++ [LIST FBF++ AVAILABLE IN THE LOCAL SETTING]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST/3:label">
+            <value>Absent</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EDEMA/y:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BROTH:label">
+            <value>Clear broth</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBF/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YESTBF/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA/2:label">
+            <value>Yes, recall</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EDEMA/n:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/HHN:label">
+            <value>Household number</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/BLOCK:label">
+            <value>Block number</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/PicEdema:label">
+            <value>Take a well focused picture of the Oedema</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/HEIGHT:hint">
+            <value>Don't forget the decimal</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MILK/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/DIAR/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XBIRTHDATE:label">
+            <value>Date of birth</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BOTTLE/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATLQD/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XLiquid:label">
+            <value>Now I would like to ask you about liquids that <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> may have had. I am interested in whether your child had the item even if it was combined with other foods. Yesterday, during the day and night, has <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> received</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/BLOCK:hint">
+            <value>Numerical or alphabetical, specify here</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EVERBF:label">
+            <value>Has <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> ever been breastfed?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOODFE:label">
+            <value>LIST ANY IRON FORTIFIED SOLID, SEMI-SOLID OR SOFT FOODS DESIGNED SPECIFICALLY FOR INFANTS AND YOUNG CHILDREN AVAILABLE IN THE LOCAL SETTING THAT ARE DIFFERENT THAN DISTRIBUTED COMMODITIES.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBFSUPER/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WHTEACOF/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORM/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOODFE/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL:hint">
+            <value>(6-59 months children)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA:hint">
+            <value>(SHOW CAPSULE)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBFSUPER/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS:label">
+            <value>Please enter the age in month</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/ZONE:label">
+            <value>Zone number</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/VSUPCON/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WHTEACOF:label">
+            <value>Tea or coffee with milk?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA/3:label">
+            <value>No/Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/SEX/f:label">
+            <value>Female</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BROTH/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FLESHFD/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST:label">
+            <value>Consent given for conducting all measurements?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS:label">
+            <value>LNS [LIST LNS PRODUCTS AVAILABLE IN THE LOCAL SETTING]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOOD:label">
+            <value>Yesterday, during the day and night, did <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> eat solid or semi-solid (soft, mushy) food?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES/2:label">
+            <value>Yes, recall</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF:label">
+            <value>RUSF [LIST RUSF PRODUCTS AVAILABLE IN THE LOCAL SETTING]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/THINPOR:label">
+            <value>Thin porridge for example: [INSERT LOCAL NAMES]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/HEIGHT:label">
+            <value>Height or length (cm)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS:hint">
+            <value>(SHOW SACHET / POT)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FLESHFD/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BOTTLE/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FLESHFD/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORM/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF:hint">
+            <value>(SHOW SACHET)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C:label">
+            <value>Child questionnaire</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOODFE/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XEligRef/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EVERBF/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHHB:hint">
+            <value>Don't forget the decimal</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATER/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL/3:label">
+            <value>None</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BOTTLE:label">
+            <value>Did <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> drink anything from a bottle with a nipple yesterday during the day or at night?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES/1:label">
+            <value>Yes, card</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBF/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/JUICE/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOODFE/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/CAMP_c/AAA:label">
+            <value>AAA</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalcCheck:label">
+            <value>Verify that the child is <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc "/> months old? Remember, if they are older than 59 months; they are not eligible for inclusion.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP:label">
+            <value>Food to which you added a [ADD LOCAL NAME FOR ICRONUTRIENT POWDER OR SPRINKLES] like this?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YOGURT:label">
+            <value>Sour milk or yogurt for example: [INSERT LOCAL NAMES OF YOGURT]</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YOGURT/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOOD/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YESTBF:label">
+            <value>Was <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/> breasfted yesterday during the day or at night?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL/2:label">
+            <value>TFP</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XDOBK:label">
+            <value>Do you know <output value=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME "/>'s birthdate ?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES/3:label">
+            <value>No/Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YESTBF/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL/1:label">
+            <value>SFP</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YOGURT/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MUAC:label">
+            <value>Mid upper arm circumference (cm)</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/REFER:hint">
+            <value>Refer if Hb is less than 7.0g/dL to clinic</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XEligRef:hint">
+            <value>Refer to clinic is MUAC is smaller 12.5cm and child is not already enrolled in SFP/OTP. Refer also if child has OEDEMA.</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORMFE/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/CAMP_c/BBB:label">
+            <value>BBB</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/TEAM:label">
+            <value>Team number</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EDEMA:label">
+            <value>Clinical examination: Bilateral pitting Oedema</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/REFER/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA/1:label">
+            <value>Yes, card</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/THINPOR/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/XCHILD:label">
+            <value>THIS QUESTIONNAIRE IS TO BE ADMINISTERED TO ALL CARETAKERS OF A CHILD THAT LIVES WITH THEM AND IS BETWEEN 0 AND 59 MONTHS OF AGE</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS/8:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATER:label">
+            <value>Plain water?</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP/2:label">
+            <value>No</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/DIAR/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBF/2:label">
+            <value>No</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <GLO_PH_Child_EN_FR_V2.8-XLS id="GLO-PH-ICF-EN-FR-ref-28-XLS" version="28">
+          <DeviceID/>
+          <TimeStartRecorded/>
+          <TimeEndRecorded/>
+          <XCHILD/>
+          <CAMP_c/>
+          <SECTION/>
+          <ZONE/>
+          <BLOCK/>
+          <SURVDATE_c/>
+          <CLUSTER_c/>
+          <TEAM/>
+          <HHN/>
+          <C jr:template="">
+            <CAMP/>
+            <SURVDATE/>
+            <CLUSTER/>
+            <Team/>
+            <ID/>
+            <NAME/>
+            <HH/>
+            <CHCONST/>
+            <SEX/>
+            <XDOBK/>
+            <XBIRTHDATE/>
+            <XAgeCalc/>
+            <XAgeCalcCheck/>
+            <BIRTHDAT/>
+            <MONTHS/>
+            <WEIGHT/>
+            <HEIGHT/>
+            <EDEMA/>
+            <PicEdema/>
+            <MUAC/>
+            <XEligRef/>
+            <ENROL/>
+            <MEASLES/>
+            <VITA/>
+            <DIAR/>
+            <CHHB/>
+            <REFER/>
+            <EVERBF/>
+            <INITBF/>
+            <YESTBF/>
+            <XLiquid/>
+            <WATER/>
+            <INFORM/>
+            <MILK/>
+            <JUICE/>
+            <BROTH/>
+            <YOGURT/>
+            <THINPOR/>
+            <WHTEACOF/>
+            <WATLQD/>
+            <FOOD/>
+            <BOTTLE/>
+            <XFood/>
+            <FLESHFD/>
+            <FBF/>
+            <FBFSUPER/>
+            <RUTF/>
+            <RUSF/>
+            <LNS/>
+            <INFORMFE/>
+            <FOODFE/>
+            <MNP/>
+          </C>
+          <VINT/>
+          <VSUPCON/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </GLO_PH_Child_EN_FR_V2.8-XLS>
+      </instance>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/DeviceID" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/TimeStartRecorded" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/TimeEndRecorded" type="dateTime"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/XCHILD" readonly="true()" type="string"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/CAMP_c" required="true()" type="select1"/>
+      <bind constraint=".&gt; 0 and .&lt;9" jr:constraintMsg="The number you have typed is outside the expected range (1-8)" nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/SECTION" required="true()" type="int"/>
+      <bind constraint=".&gt; 0 and .&lt;5" jr:constraintMsg="The number you have typed is outside the expected range (1-4)" nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/ZONE" required="true()" type="int"/>
+      <bind constraint=".&gt; 0 and .&lt;16" jr:constraintMsg="The number you have typed is outside the expected range (1-15)" nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/BLOCK" required="true()" type="int"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/SURVDATE_c" type="date"/>
+      <bind constraint=".&gt; 0 and .&lt;11" jr:constraintMsg="The number you have typed is outside the expected range (1-10)" nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/CLUSTER_c" required="true()" type="int"/>
+      <bind constraint=".&gt; 0 and .&lt;7" jr:constraintMsg="The number you have typed is outside the expected range (1-6)" nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/TEAM" required="true()" type="int"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/HHN" required="true()" type="int"/>
+      <bind calculate=" /GLO_PH_Child_EN_FR_V2.8-XLS/CAMP_c " nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CAMP" type="string"/>
+      <bind calculate=" /GLO_PH_Child_EN_FR_V2.8-XLS/SURVDATE_c " nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/SURVDATE" type="string"/>
+      <bind calculate=" /GLO_PH_Child_EN_FR_V2.8-XLS/CLUSTER_c " nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CLUSTER" type="string"/>
+      <bind calculate=" /GLO_PH_Child_EN_FR_V2.8-XLS/TEAM " nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/Team" type="string"/>
+      <bind calculate="position(..)" nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/ID" readonly="true()" required="true()" type="string"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME" type="string"/>
+      <bind calculate=" /GLO_PH_Child_EN_FR_V2.8-XLS/HHN " nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/HH" type="string"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/SEX" relevant="selected( /GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST ,'1')" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XDOBK" relevant="selected( /GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST ,'1')" type="select1"/>
+      <bind constraint=".&lt; today()" jr:constraintMsg="Birthdate must lie in the past" nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XBIRTHDATE" relevant="selected( /GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST ,'1') and selected( /GLO_PH_Child_EN_FR_V2.8-XLS/C/XDOBK ,'1')" type="date"/>
+      <bind calculate="(int(( /GLO_PH_Child_EN_FR_V2.8-XLS/SURVDATE_c  -  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XBIRTHDATE )div 30.4375 *100 + 0.5)) div 100" nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc" relevant="selected( /GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST ,'1') and selected( /GLO_PH_Child_EN_FR_V2.8-XLS/C/XDOBK ,'1')" type="string"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalcCheck" readonly="true()" relevant="selected( /GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST ,'1') and selected( /GLO_PH_Child_EN_FR_V2.8-XLS/C/XDOBK ,'1')" type="string"/>
+      <bind calculate=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XBIRTHDATE " nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BIRTHDAT" type="string"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS" relevant="selected( /GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST ,'1') and selected( /GLO_PH_Child_EN_FR_V2.8-XLS/C/XDOBK ,'2')" type="int"/>
+      <bind constraint=".&gt;2.9 and .&lt;32.0" jr:constraintMsg="Can you verify? The figure you typed is outside of an expected range" nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WEIGHT" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;60 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;60" type="decimal"/>
+      <bind constraint=".&gt;53.9 and .&lt;125" jr:constraintMsg="Can you verify? The figure you typed is outside of an expected range" nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/HEIGHT" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;60 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;60" type="decimal"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EDEMA" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;60 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;60" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/PicEdema" relevant="selected( /GLO_PH_Child_EN_FR_V2.8-XLS/C/EDEMA ,'y')" type="binary"/>
+      <bind constraint=".&gt;7.4 and .&lt;23" jr:constraintMsg="Can you verify? The figure you typed is outside of an expected range" nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MUAC" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;60 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;60" type="decimal"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XEligRef" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/MUAC &lt;12.5 or selected( /GLO_PH_Child_EN_FR_V2.8-XLS/C/EDEMA ,'y')" required="true()" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;60 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;60" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;60 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;60" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;60 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;60" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/DIAR" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;60 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;60" type="select1"/>
+      <bind constraint=".&gt;2.0 and .&lt;23.0" jr:constraintMsg="Can you verify? The figure you typed is outside of an expected range" nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHHB" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;60 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;60" type="decimal"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/REFER" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/CHHB &lt;7" required="true()" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EVERBF" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF" relevant="selected( /GLO_PH_Child_EN_FR_V2.8-XLS/C/EVERBF ,'1')" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YESTBF" relevant="selected( /GLO_PH_Child_EN_FR_V2.8-XLS/C/EVERBF ,'1')" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XLiquid" readonly="true()" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="string"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATER" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORM" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MILK" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/JUICE" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BROTH" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YOGURT" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/THINPOR" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WHTEACOF" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATLQD" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOOD" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BOTTLE" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XFood" readonly="true()" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="string"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FLESHFD" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBF" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBFSUPER" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORMFE" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOODFE" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP" relevant=" /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalc &lt;24 or  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &gt;=6 and  /GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS &lt;24" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/VINT" type="select1"/>
+      <bind nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/VSUPCON" type="select1"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/XCHILD">
+      <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/XCHILD:label')"/>
+    </input>
+    <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/CAMP_c">
+      <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/CAMP_c:label')"/>
+      <item>
+        <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/CAMP_c/AAA:label')"/>
+        <value>AAA</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/CAMP_c/BBB:label')"/>
+        <value>BBB</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/CAMP_c/CCC:label')"/>
+        <value>CCC</value>
+      </item>
+    </select1>
+    <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/SECTION">
+      <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/SECTION:label')"/>
+    </input>
+    <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/ZONE">
+      <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/ZONE:label')"/>
+    </input>
+    <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/BLOCK">
+      <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/BLOCK:label')"/>
+      <hint ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/BLOCK:hint')"/>
+    </input>
+    <input appearance="no-calendar" ref="/GLO_PH_Child_EN_FR_V2.8-XLS/SURVDATE_c">
+      <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/SURVDATE_c:label')"/>
+    </input>
+    <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/CLUSTER_c">
+      <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/CLUSTER_c:label')"/>
+    </input>
+    <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/TEAM">
+      <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/TEAM:label')"/>
+    </input>
+    <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/HHN">
+      <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/HHN:label')"/>
+    </input>
+    <group ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C">
+      <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C:label')"/>
+      <repeat nodeset="/GLO_PH_Child_EN_FR_V2.8-XLS/C">
+        <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/ID">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/ID:label')"/>
+        </input>
+        <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/NAME:label')"/>
+        </input>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHCONST/3:label')"/>
+            <value>3</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/SEX">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/SEX:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/SEX/m:label')"/>
+            <value>m</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/SEX/f:label')"/>
+            <value>f</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XDOBK">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/XDOBK:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/XDOBK/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/XDOBK/2:label')"/>
+            <value>2</value>
+          </item>
+        </select1>
+        <input appearance="no-calendar" ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XBIRTHDATE">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/XBIRTHDATE:label')"/>
+          <hint ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/XBIRTHDATE:hint')"/>
+        </input>
+        <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalcCheck">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/XAgeCalcCheck:label')"/>
+        </input>
+        <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS:label')"/>
+          <hint ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MONTHS:hint')"/>
+        </input>
+        <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WEIGHT">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/WEIGHT:label')"/>
+          <hint ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/WEIGHT:hint')"/>
+        </input>
+        <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/HEIGHT">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/HEIGHT:label')"/>
+          <hint ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/HEIGHT:hint')"/>
+        </input>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EDEMA">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/EDEMA:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/EDEMA/y:label')"/>
+            <value>y</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/EDEMA/n:label')"/>
+            <value>n</value>
+          </item>
+        </select1>
+        <upload mediatype="image/*" ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/PicEdema">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/PicEdema:label')"/>
+        </upload>
+        <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MUAC">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MUAC:label')"/>
+          <hint ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MUAC:hint')"/>
+        </input>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XEligRef">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/XEligRef:label')"/>
+          <hint ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/XEligRef:hint')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/XEligRef/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/XEligRef/2:label')"/>
+            <value>2</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL:label')"/>
+          <hint ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL:hint')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/ENROL/3:label')"/>
+            <value>3</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES:label')"/>
+          <hint ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES:hint')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MEASLES/3:label')"/>
+            <value>3</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA:label')"/>
+          <hint ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA:hint')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/VITA/3:label')"/>
+            <value>3</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/DIAR">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/DIAR:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/DIAR/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/DIAR/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/DIAR/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHHB">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHHB:label')"/>
+          <hint ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/CHHB:hint')"/>
+        </input>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/REFER">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/REFER:label')"/>
+          <hint ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/REFER:hint')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/REFER/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/REFER/2:label')"/>
+            <value>2</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/EVERBF">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/EVERBF:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/EVERBF/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/EVERBF/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/EVERBF/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF/3:label')"/>
+            <value>3</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/INITBF/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YESTBF">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/YESTBF:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/YESTBF/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/YESTBF/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/YESTBF/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XLiquid">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/XLiquid:label')"/>
+        </input>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATER">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATER:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATER/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATER/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATER/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORM">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORM:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORM/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORM/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORM/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MILK">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MILK:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MILK/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MILK/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MILK/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/JUICE">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/JUICE:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/JUICE/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/JUICE/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/JUICE/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BROTH">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/BROTH:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/BROTH/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/BROTH/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/BROTH/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/YOGURT">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/YOGURT:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/YOGURT/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/YOGURT/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/YOGURT/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/THINPOR">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/THINPOR:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/THINPOR/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/THINPOR/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/THINPOR/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WHTEACOF">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/WHTEACOF:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/WHTEACOF/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/WHTEACOF/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/WHTEACOF/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATLQD">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATLQD:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATLQD/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATLQD/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/WATLQD/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOOD">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOOD:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOOD/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOOD/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOOD/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/BOTTLE">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/BOTTLE:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/BOTTLE/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/BOTTLE/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/BOTTLE/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <input ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/XFood">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/XFood:label')"/>
+        </input>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FLESHFD">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FLESHFD:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FLESHFD/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FLESHFD/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FLESHFD/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBF">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBF:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBF/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBF/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBF/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBFSUPER">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBFSUPER:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBFSUPER/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBFSUPER/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FBFSUPER/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF:label')"/>
+          <hint ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF:hint')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUTF/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF:label')"/>
+          <hint ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF:hint')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/RUSF/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS:label')"/>
+          <hint ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS:hint')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/LNS/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORMFE">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORMFE:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORMFE/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORMFE/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/INFORMFE/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOODFE">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOODFE:label')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOODFE/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOODFE/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/FOODFE/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+        <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP">
+          <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP:label')"/>
+          <hint ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP:hint')"/>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP/2:label')"/>
+            <value>2</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/C/MNP/8:label')"/>
+            <value>8</value>
+          </item>
+        </select1>
+      </repeat>
+    </group>
+    <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/VINT">
+      <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/VINT:label')"/>
+      <item>
+        <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/VINT/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/VINT/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <select1 ref="/GLO_PH_Child_EN_FR_V2.8-XLS/VSUPCON">
+      <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/VSUPCON:label')"/>
+      <item>
+        <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/VSUPCON/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/GLO_PH_Child_EN_FR_V2.8-XLS/VSUPCON/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+  </h:body>
+</h:html>
