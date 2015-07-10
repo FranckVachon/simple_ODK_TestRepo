@@ -10,7 +10,7 @@ var error = require('./controllers/error-handler')
 var app = express()
 /** Logger **/
 var logger = require('./logger')
-logger.debugLevel = 'info';
+//logger.debugLevel = 'info';
 //logger.log('info','Logger is working');
 
 app.use(morgan('dev'))
