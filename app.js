@@ -5,7 +5,7 @@ var vhosts = require('./routes/vhosts')
 //var github = require('./routes/github')
 //var firebase = require('./routes/firebase')
 //var gist = require('./routes/gist')
-var aliases = require('./routes/aliases')
+//var aliases = require('./routes/aliases')
 var error = require('./controllers/error-handler')
 var app = express()
 /** Logger **/
@@ -30,7 +30,7 @@ logger.log('info','vhosts: '+ vhosts);
 //logger.log('info','Firebase: '+ firebase);
 //app.use('/gist/:gist_id', gist)
 //logger.log('info','Github: '+ github);
-app.use('/:alias', aliases)
+//app.use('/:alias', aliases)
 //logger.log('info','Aliases: '+ aliases);
 // Handle errors
 app.use(error)
