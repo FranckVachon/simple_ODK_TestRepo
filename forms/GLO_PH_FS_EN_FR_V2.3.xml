@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head> 
+	 <h:title>Global SENS Food Security Questionnaire V2.3</h:title> 
+		<model>
+		<!-- GLO for Global + PH (Public Health) + Name of the survey + ref for refugees as administered in Refugee camps-->
+        <instance>
+            <data id="GLO-PH-FS-EN-FR-ref-23">
+                <Meta>
+					<instanceID/>                    
+					<DeviceID/>
+                    <TimeStartRecorded/>
+                    <TimeEndRecorded/>
+                </Meta>
+				<CAMP/>
+				<SECTION/>
+				<ZONE/>
+				<BLOCK/>
+				<SURVDATE/>				
+				<CLUSTER/>
+				<TEAM/>					
+				<HH/>
+				<FSCONST/>
+				<RCARD/>
+				<YNORCARD/>
+				<YNORCARDOTH/>
+				<RSIZE/>
+				<RSIZEOTH/>
+				<GFDLAST/>
+				<BRW/>
+				<SOLD/>
+				<ASKMORE/>
+				<LESSMEAL/>
+				<BEG/>
+				<RISKYACT/>
+				<XFood/>
+				<CRL/>
+				<WHTRT/>
+				<VITAVEG/>
+				<GREENVEG/>
+				<OTHVEG/>
+				<VITAFRT/>
+				<OTHFRT/>
+				<ORGMT/>
+				<FLSHMT/>
+				<EGGS/>
+				<FISHSF/>
+				<PULSE/>
+				<MILK/>
+				<FATS/>
+				<SWTS/>
+				<SPICE/>
+				<!-- V for Verification- requesting interviewer and supervisor to go through the data before saving as complete -->
+				<VINT/>
+				<VSUPCON/>
+			</data>
+		</instance>
+		<itext>
+			<translation lang="EN">
+                  <text id="/data:label">
+                     <value>THIS QUESTIONNAIRE IS TO BE ADMINISTERED TO THE MAIN CARETAKER WHO IS RESPONSIBLE FOR COOKING THE MEALS.</value>
+                  </text>
+                  <text id="/data/CAMP:label">
+                     <value>Tick the camp in which you conduct this survey</value>
+                  </text>
+                  <text id="/data/CAMP:option0">
+                     <value>AAA</value> 
+                  </text>
+                  <text id="/data/CAMP:option1">
+                     <value>BBB</value> 
+                  </text>
+                  <text id="/data/CAMP:option2">
+                     <value>CCC</value> 
+                  </text>				  
+				  <text id="/data/SECTION:label">
+                    <value>Section number</value>
+                  </text>
+				  <text id="/data/ZONE:label">
+                    <value>Zone number</value>
+                  </text>				  
+				  <text id="/data/BLOCK:label">
+                    <value>Block number</value>
+                  </text>
+				  <text id="/data/BLOCK:hint">
+                    <value>"Numerical or alphabetical, specify here"</value>
+                  </text>				  
+                  <text id="/data/SURVDATE:label">
+                     <value>Date of Interview</value>
+                  </text>
+				  <text id="/data/CLUSTER:label">
+                    <value>Cluster number</value>
+                  </text>				  
+                  <text id="/data/TEAM:label">
+                    <value>Team number</value>
+                  </text>				  
+                  <text id="/data/HH:label">
+                    <value>Household number</value>
+                  </text>
+                  <text id="/data/FSCONST:label">
+                    <value>Did the household give its consent to be interviewed?</value>
+                  </text>
+				<text id="/data/FSCONST:hint">
+                    <value>Ensure that you have introduced yourself and informed them about the interview.</value>
+                  </text>
+                  <text id="/data/FSCONST:option0">
+                    <value>Yes</value>
+                  </text>
+                  <text id="/data/FSCONST:option1">
+                    <value>No</value>
+                  </text>
+                  <text id="/data/FSCONST:option2">
+                    <value>Absent</value>
+                  </text>		
+                  <text id="/data/RCARD:label">
+                    <value>Does your household have a ration card?</value>
+                  </text>
+				  <text id="/data/RCARD:option0">
+                    <value>Yes</value>
+                  </text>
+                  <text id="/data/RCARD:option1">
+                    <value>No</value>
+                  </text>
+                  <text id="/data/YNORCARD:label">
+                    <value>Why do you not have a ration card?</value>
+                  </text>				  
+                  <text id="/data/YNORCARD:option0">
+                    <value>Not given one at registration</value>
+                  </text>
+                  <text id="/data/YNORCARD:option1">
+                    <value>Lost card</value>
+                  </text>
+                  <text id="/data/YNORCARD:option2">
+                    <value>Traded/sold card</value>
+                  </text>				  
+                  <text id="/data/YNORCARD:option3">
+                    <value>Not registered but eligible</value>
+                  </text>	
+                  <text id="/data/YNORCARD:option4">
+                    <value>Not eligible (not in targeting criteria)</value>
+                  </text>	
+                  <text id="/data/YNORCARD:option5">
+                    <value>Other</value>
+                  </text>	
+                  <text id="/data/YNORCARDOTH:label">
+                    <value>If other, please specify:</value>
+                  </text>	
+                  <text id="/data/RSIZE:label">
+                    <value>Does your household receive full or reduced food aid ration?</value>
+                  </text>	
+                  <text id="/data/RSIZE:option0">
+                    <value>Full</value>
+                  </text>	
+                  <text id="/data/RSIZE:option1">
+                    <value>Half</value>
+                  </text>
+				  <text id="/data/RSIZE:option2">
+                    <value>Other</value>
+                  </text>	
+                  <text id="/data/RSIZEOTH:label">
+                    <value>If Other please specify:</value>
+                  </text>				  
+                  <text id="/data/GFDLAST:label">
+                    <value>How many days did the food from the general food aid ration from the [INSERT] cycle of [INSERT MONTH] last? </value>
+                  </text>	
+                  <text id="/data/GFDLAST:hint">
+                    <value>Please enter the number of days, record '98' if unknown. </value>
+                  </text>	
+				  <text id="/data/BRW:label">
+                    <value>In the last month, have you or anyone in your household borrowed cash, food or other items with or without interest?  </value>
+                  </text>	
+                  <text id="/data/BRW:option0">
+                    <value>Yes</value>
+                  </text>	
+                  <text id="/data/BRW:option1">
+                    <value>No</value>
+                  </text>
+				  <text id="/data/BRW:option2">
+                    <value>Don't know</value>
+                  </text>
+				  <text id="/data/SOLD:label">
+                    <value>In the last month, have you or anyone in your household sold any assets that you would not have normally sold (furniture, seed stocks, tools, other NFI, livestock etc.)? </value>
+                  </text>	
+                  <text id="/data/SOLD:option0">
+                    <value>Yes</value>
+                  </text>	
+                  <text id="/data/SOLD:option1">
+                    <value>No</value>
+                  </text>
+				  <text id="/data/SOLD:option2">
+                    <value>Don't know</value>
+                  </text>
+				  <text id="/data/ASKMORE:label">
+                    <value>In the last month, have you or anyone in your household requested increased remittances or gifts as compared to normal? </value>
+                  </text>	
+                  <text id="/data/ASKMORE:option0">
+                    <value>Yes</value>
+                  </text>	
+                  <text id="/data/ASKMORE:option1">
+                    <value>No</value>
+                  </text>
+				  <text id="/data/ASKMORE:option2">
+                    <value>Don't know</value>
+                  </text>
+				  <text id="/data/LESSMEAL:label">
+                    <value>In the last month, have you or anyone in your household reduced the quantity and/or frequency of meals and snacks? </value>
+                  </text>	
+                  <text id="/data/LESSMEAL:option0">
+                    <value>Yes</value>
+                  </text>	
+                  <text id="/data/LESSMEAL:option1">
+                    <value>No</value>
+                  </text>
+				  <text id="/data/LESSMEAL:option2">
+                    <value>Don't know</value>
+                  </text>
+				  <text id="/data/BEG:label">
+                    <value>In the last month, have you or anyone in your household begged? </value>
+                  </text>	
+                  <text id="/data/BEG:option0">
+                    <value>Yes</value>
+                  </text>	
+                  <text id="/data/BEG:option1">
+                    <value>No</value>
+                  </text>
+				  <text id="/data/BEG:option2">
+                    <value>Don't know</value>
+                  </text>
+				  <text id="/data/RISKYACT:label">
+                    <value>In the last month, have you or anyone in your household engaged in: [ADD LIST OF POTENTIALLY RISKY OR HARMFUL ACTIVITIES SUCH AS LOCAL ILLEGAL ACTIVITIES] or any other risky or harmful activities?</value>
+                  </text>	
+                  <text id="/data/RISKYACT:option0">
+                    <value>Yes</value>
+                  </text>	
+                  <text id="/data/RISKYACT:option1">
+                    <value>No</value>
+                  </text>
+				  <text id="/data/RISKYACT:option2">
+                    <value>Don't know</value>
+                  </text>
+				  <text id="/data/XFood:label">
+                    <value>Now I would like to ask you about the types of foods that you or anyone else in your household ate yesterday during the day and at night. I am interested in whether you or anyone else in your household had the item even if it was combined with other foods. I am interested in knowing about meals, beverages and snacks eaten or drank inside or outside the home.</value>
+                  </text>
+				  <text id="/data/XFood:hint">
+                    <value>READ THE LIST OF FOODS FROM THE SEPARATE SHEET AND DO NOT PROBE. TICK 'YES' IF ANYONE IN THE HOUSEHOLD ATE THE FOOD IN QUESTION, TICK 'NO' IF NO ONE IN THE HOUSEHOLD ATE THE FOOD.</value>
+                  </text>				  
+				 <text id="/data/CRL:label">
+				    <value>Any Cereals </value>
+                  </text>
+                 <text id="/data/CRL:hint">
+                    <value/> 
+                  </text>
+                 <text id="/data/CRL:option0">
+                    <value>Yes</value>
+                  </text>	
+                 <text id="/data/CRL:option1">
+                    <value>No</value>
+                  </text>	
+				  <text id="/data/WHTRT:label">
+                    <value>Any White roots and tubers</value>
+                  </text>
+                <text id="/data/WHTRT:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/WHTRT:option0">
+                    <value>Yes</value>
+                  </text>	
+                 <text id="/data/WHTRT:option1">
+                    <value>No</value>
+                  </text>
+				  <text id="/data/VITAVEG:label">
+                    <value>Any Vitamin A rich vegetables and tubers  </value>
+                  </text>	
+                <text id="/data/VITAVEG:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/VITAVEG:option0">
+                    <value>Yes</value>
+                  </text>	
+                 <text id="/data/VITAVEG:option1">
+                    <value>No</value>
+                  </text>	
+				  <text id="/data/GREENVEG:label">
+                    <value>Any Dark green leafy vegetables</value>
+                  </text>	
+               <text id="/data/GREENVEG:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/GREENVEG:option0">
+                    <value>Yes</value>
+                  </text>	
+                 <text id="/data/GREENVEG:option1">
+                    <value>No</value>
+                  </text>	
+				  <text id="/data/OTHVEG:label">
+                    <value>Any Other vegetables </value>
+                  </text>
+               <text id="/data/OTHVEG:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/OTHVEG:option0">
+                    <value>Yes</value>
+                  </text>	
+                 <text id="/data/OTHVEG:option1">
+                    <value>No</value>
+                  </text>	
+				  <text id="/data/VITAFRT:label">
+                    <value>Any Vitamin A rich fruits </value>
+                  </text>				  
+               <text id="/data/VITAFRT:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/VITAFRT:option0">
+                    <value>Yes</value>
+                  </text>	
+                 <text id="/data/VITAFRT:option1">
+                    <value>No</value>
+                  </text>				  
+				  <text id="/data/OTHFRT:label">
+                    <value>Any Other fruits  </value>
+                  </text>
+               <text id="/data/OTHFRT:hint">
+                    <value/>
+				</text>
+                 <text id="/data/OTHFRT:option0">
+                    <value>Yes</value>
+                  </text>	
+                 <text id="/data/OTHFRT:option1">
+                    <value>No</value>
+                  </text>	
+				  <text id="/data/ORGMT:label">
+                    <value>Any Organ meat </value>
+                  </text>
+               <text id="/data/ORGMT:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/ORGMT:option0">
+                    <value>Yes</value>
+                  </text>	
+                 <text id="/data/ORGMT:option1">
+                    <value>No</value>
+                  </text>				  
+				  <text id="/data/FLSHMT:label">
+                    <value>Any Flesh meat  </value>
+                  </text>	
+               <text id="/data/FLSHMT:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/FLSHMT:option0">
+                    <value>Yes</value>
+                  </text>	
+                 <text id="/data/FLSHMT:option1">
+                    <value>No</value>
+                  </text>	
+				  <text id="/data/EGGS:label">
+                    <value>Any Eggs  </value>
+                  </text>	
+               <text id="/data/EGGS:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/EGGS:option0">
+                    <value>Yes</value>
+                  </text>	
+                 <text id="/data/EGGS:option1">
+                    <value>No</value>
+                  </text>	
+				  <text id="/data/FISHSF:label">
+                    <value>Any Fish and other seafood  </value>
+                  </text>
+               <text id="/data/FISHSF:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/FISHSF:option0">
+                    <value>Yes</value>
+                  </text>	
+                 <text id="/data/FISHSF:option1">
+                    <value>No</value>
+                  </text>					  
+				  <text id="/data/PULSE:label">
+                    <value> Any Legumes, nuts and seeds  </value>
+                  </text>	
+               <text id="/data/PULSE:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/PULSE:option0">
+                    <value>Yes</value>
+                  </text>	
+                 <text id="/data/PULSE:option1">
+                    <value>No</value>
+                  </text>
+				  <text id="/data/MILK:label">
+                    <value>Any Milk and milk products </value>
+                  </text>	
+               <text id="/data/MILK:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/MILK:option0">
+                    <value>Yes</value>
+                  </text>	
+                 <text id="/data/MILK:option1">
+                    <value>No</value>
+                  </text>	
+				  <text id="/data/FATS:label">
+                    <value>Any Oils and fats  </value>
+                  </text>
+               <text id="/data/FATS:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/FATS:option0">
+                    <value>Yes</value>
+                  </text>	
+                 <text id="/data/FATS:option1">
+                    <value>No</value>
+                  </text>	
+				  <text id="/data/SWTS:label">
+                    <value>Any Sweets </value>
+                  </text>
+               <text id="/data/SWTS:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/SWTS:option0">
+                    <value>Yes</value>
+                  </text>	
+                 <text id="/data/SWTS:option1">
+                    <value>No</value>
+                  </text>					  
+				  <text id="/data/SPICE:label">
+                    <value> Any Spices, condiments and beverages  </value>
+                  </text>	
+	               <text id="/data/SPICE:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/SPICE:option0">
+                    <value>Yes</value>
+                  </text>	
+                 <text id="/data/SPICE:option1">
+                    <value>No</value>
+                  </text>				  
+				  <text id="/data/VINT">
+				    <value>Interviewer: I confirm that questionnaire is complete</value>
+                  </text>
+				  <text id="/data/VINT:option0">
+                    <value>Yes</value>
+                  </text>	
+				  <text id="/data/VINT:option1">
+                    <value>No</value>
+                  </text>		
+				  <text id="/data/VSUPCON">
+				    <value>Supervisor: I confirm that questionnaire is complete</value>
+                  </text>
+				  <text id="/data/VSUPCON:option0">
+                    <value>Yes</value>
+                  </text>	
+				  <text id="/data/VSUPCON:option1">
+                    <value>No</value>
+                  </text>					  
+			</translation>
+			<translation lang="FR">
+                  <text id="/data:label">
+                     <value>CE QUESTIONNAIRE DOIT ÊTRE ADMINISTRÉ A LA PERSONNE QUI EST RESPONSABLE DE LA PRÉPARATION DES REPAS.</value>
+                  </text>
+                  <text id="/data/CAMP:label">
+                     <value>Cochez le camp dans lequel vous effectuez cette enquête</value>
+                  </text>			  
+				  <text id="/data/SECTION:label">
+                    <value>Code section / numéro</value>
+                  </text>
+				  <text id="/data/ZONE:label">
+                    <value>Code zone / numéro</value>
+                  </text>				  
+				  <text id="/data/BLOCK:label">
+                    <value>Code bloc</value>
+                  </text>
+				  <text id="/data/BLOCK:hint">
+                    <value>Numérique ou Alphabétique</value>
+                  </text>				  
+                  <text id="/data/SURVDATE:label">
+                     <value>Date d’entretien</value>
+                  </text>
+				  <text id="/data/CLUSTER:label">
+                    <value>Numéro de grappe (enquêtes en grappes seulement)</value>
+                  </text>				  
+                  <text id="/data/TEAM:label">
+                    <value>Numéro d’équipe</value>
+                  </text>				  
+                  <text id="/data/HH:label">
+                    <value>MN numéro</value>
+                  </text>
+                  <text id="/data/FSCONST:label">
+                    <value>Le ménage at-il donné son consentement pour répondre au questionnaire ?</value>
+                  </text>
+				<text id="/data/FSCONST:hint">
+                    <value>Vérifiez que vous avez bien fait les salutations et lecture des droits.</value>
+                  </text>
+                  <text id="/data/FSCONST:option0">
+                    <value>Oui</value>
+                  </text>
+                  <text id="/data/FSCONST:option1">
+                    <value>Non</value>
+                  </text>
+                  <text id="/data/FSCONST:option2">
+                    <value>Absent</value>
+                  </text>		
+                  <text id="/data/RCARD:label">
+                    <value>Votre ménage a-t-il une carte de ration ?</value>
+                  </text>
+				  <text id="/data/RCARD:option0">
+                    <value>Oui</value>
+                  </text>
+                  <text id="/data/RCARD:option1">
+                    <value>Non</value>
+                  </text>
+                  <text id="/data/YNORCARD:label">
+                    <value>Pourquoi n'avez-vous pas une carte de ration ?</value>
+                  </text>				  
+                  <text id="/data/YNORCARD:option0">
+                    <value>Non remis à l’enregistrement</value>
+                  </text>
+                  <text id="/data/YNORCARD:option1">
+                    <value>Carte perdue</value>
+                  </text>
+                  <text id="/data/YNORCARD:option2">
+                    <value>Carte échangée</value>
+                  </text>				  
+                  <text id="/data/YNORCARD:option3">
+                    <value>Pas enregistré mais éligible</value>
+                  </text>	
+                  <text id="/data/YNORCARD:option4">
+                    <value>Non éligible (selon les critères de ciblage)</value>
+                  </text>	
+                  <text id="/data/YNORCARD:option5">
+                    <value>Autre</value>
+                  </text>	
+                  <text id="/data/YNORCARDOTH:label">
+                    <value>Si autre, veuillez spécifier</value>
+                  </text>	
+                  <text id="/data/RSIZE:label">
+                    <value>Est-ce que votre ménage reçoit une ration complète ou une ration partielle ?</value>
+                  </text>	
+                  <text id="/data/RSIZE:option0">
+                    <value>Complète</value>
+                  </text>	
+                  <text id="/data/RSIZE:option1">
+                    <value>Moitié</value>
+                  </text>
+				  <text id="/data/RSIZE:option2">
+                    <value>Autre</value>
+                  </text>	
+                  <text id="/data/RSIZEOTH:label">
+                    <value>Si autre, veuillez spécifier</value>
+                  </text>				  
+                  <text id="/data/GFDLAST:label">
+                    <value>Combien de jours la nourriture de la distribution générale de vivres du dernier cycle de [INSÉRER] [INSÉRER MOIS] a-t-elle duré ?</value>
+                  </text>	
+                  <text id="/data/GFDLAST:hint">
+                    <value>INSCRIRE LE NOMBRE DE JOURS S’IL EST CONNU (INSCRIRE 98 SI NON CONNU)</value>
+                  </text>	
+				  <text id="/data/BRW:label">
+                    <value>Le mois dernier, est-ce que vous ou quelqu’un de votre ménage avez emprunté de l’argent liquide, de la nourriture ou autre chose avec ou sans intérêts ?</value>
+                  </text>	
+                  <text id="/data/BRW:option0">
+                    <value>Oui</value>
+                  </text>	
+                  <text id="/data/BRW:option1">
+                    <value>Non</value>
+                  </text>
+				  <text id="/data/BRW:option2">
+                    <value>Ne sait pas</value>
+                  </text>
+				  <text id="/data/SOLD:label">
+                    <value>Le mois dernier, est-ce que vous ou quelqu’un de votre ménage avez vendu des biens que vous n’auriez normalement pas vendus (meubles, stocks de semences, outils, autres ANA, bétail, etc.) ?</value>
+                  </text>	
+                  <text id="/data/SOLD:option0">
+                    <value>Oui</value>
+                  </text>	
+                  <text id="/data/SOLD:option1">
+                    <value>Non</value>
+                  </text>
+				  <text id="/data/SOLD:option2">
+                    <value>Ne sait pas</value>
+                  </text>
+				  <text id="/data/ASKMORE:label">
+                    <value>Le mois dernier, est-ce que vous ou quelqu’un de votre ménage avez demandé plus d’argent ou de cadeaux par rapport à d’habitude ?</value>
+                  </text>	
+                  <text id="/data/ASKMORE:option0">
+                    <value>Oui</value>
+                  </text>	
+                  <text id="/data/ASKMORE:option1">
+                    <value>Non</value>
+                  </text>
+				  <text id="/data/ASKMORE:option2">
+                    <value>Ne sait pas</value>
+                  </text>
+				  <text id="/data/LESSMEAL:label">
+                    <value>Le mois dernier, est-ce que vous ou quelqu’un de votre ménage avez réduit la quantité et / ou la fréquence des repas ?</value>
+                  </text>	
+                  <text id="/data/LESSMEAL:option0">
+                    <value>Oui</value>
+                  </text>	
+                  <text id="/data/LESSMEAL:option1">
+                    <value>Non</value>
+                  </text>
+				  <text id="/data/LESSMEAL:option2">
+                    <value>Ne sait pas</value>
+                  </text>
+				  <text id="/data/BEG:label">
+                    <value>Le mois dernier, est-ce que vous ou quelqu’un de votre ménage avez mendié ?</value>
+                  </text>	
+                  <text id="/data/BEG:option0">
+                    <value>Oui</value>
+                  </text>	
+                  <text id="/data/BEG:option1">
+                    <value>Non</value>
+                  </text>
+				  <text id="/data/BEG:option2">
+                    <value>Ne sait pas</value>
+                  </text>
+				  <text id="/data/RISKYACT:label">
+                    <value>Le mois dernier, est-ce que vous ou quelqu’un de votre ménage vous êtes engagé(e) dans: [AJOUTER LISTE D’ACTIVITÉS POTENTIELLEMENT DANGEREUSES TELLES QUE DES ACTIVITÉS LOCALES  ILLÉGALES] ou n’importe quelle autre activité possiblement dangereuse ?</value>
+                  </text>	
+                  <text id="/data/RISKYACT:option0">
+                    <value>Oui</value>
+                  </text>	
+                  <text id="/data/RISKYACT:option1">
+                    <value>Non</value>
+                  </text>
+				  <text id="/data/RISKYACT:option2">
+                    <value>Ne sait pas</value>
+                  </text>
+				  <text id="/data/XFood:label">
+                    <value>Maintenant, je voudrais vous poser des questions sur les types d'aliments que vous ou n’importe qui d'autre dans votre ménage avez mangé dans la journée ou la nuit d’hier. Je cherche à savoir si vous ou quelqu’un d’autre de votre ménage avez mangé un des aliments suivants même s’il a été mélangé à une autre nourriture. Cela englobe les repas, boissons et collations mangés à la maison ou à l’extérieur.</value>
+                  </text>
+				  <text id="/data/XFood:hint">
+                    <value>LIRE LA LISTE DES ALIMENTS SUR LE FORMULAIRE FOURNI ET NE PAS INSISTER. INSCRIRE « 1 » DANS LA CASE SI QUELQU’UN DU MÉNAGE  A CONSOMMÉ L’ALIMENT EN QUESTION, ET « 0 » SI AUCUNE PERSONNE DU MÉNAGE N’A CONSOMMÉ CET ALIMENT.</value>
+                  </text>				  
+				 <text id="/data/CRL:label">
+				    <value>Céréales</value>
+                  </text>
+                 <text id="/data/CRL:hint">
+                    <value/> 
+                  </text>
+                 <text id="/data/CRL:option0">
+                    <value>Oui</value>
+                  </text>	
+                 <text id="/data/CRL:option1">
+                    <value>Non</value>
+                  </text>	
+				  <text id="/data/WHTRT:label">
+                    <value>Racines et un tubercules blancs</value>
+                  </text>
+                <text id="/data/WHTRT:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/WHTRT:option0">
+                    <value>Oui</value>
+                  </text>	
+                 <text id="/data/WHTRT:option1">
+                    <value>Non</value>
+                  </text>
+				  <text id="/data/VITAVEG:label">
+                    <value>Légumes et tubercules riches en vitamine A</value>
+                  </text>	
+                <text id="/data/VITAVEG:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/VITAVEG:option0">
+                    <value>Oui</value>
+                  </text>	
+                 <text id="/data/VITAVEG:option1">
+                    <value>Non</value>
+                  </text>	
+				  <text id="/data/GREENVEG:label">
+                    <value>Légumes à feuilles vert-foncé</value>
+                  </text>	
+               <text id="/data/GREENVEG:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/GREENVEG:option0">
+                    <value>Oui</value>
+                  </text>	
+                 <text id="/data/GREENVEG:option1">
+                    <value>Non</value>
+                  </text>	
+				  <text id="/data/OTHVEG:label">
+                    <value>Autres légumes</value>
+                  </text>
+               <text id="/data/OTHVEG:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/OTHVEG:option0">
+                    <value>Oui</value>
+                  </text>	
+                 <text id="/data/OTHVEG:option1">
+                    <value>Non</value>
+                  </text>	
+				  <text id="/data/VITAFRT:label">
+                    <value>Fruits riches en vitamine A</value>
+                  </text>				  
+               <text id="/data/VITAFRT:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/VITAFRT:option0">
+                    <value>Oui</value>
+                  </text>	
+                 <text id="/data/VITAFRT:option1">
+                    <value>Non</value>
+                  </text>				  
+				  <text id="/data/OTHFRT:label">
+                    <value>Autres fruits</value>
+                  </text>
+               <text id="/data/OTHFRT:hint">
+                    <value/>
+				</text>
+                 <text id="/data/OTHFRT:option0">
+                    <value>Oui</value>
+                  </text>	
+                 <text id="/data/OTHFRT:option1">
+                    <value>Non</value>
+                  </text>	
+				  <text id="/data/ORGMT:label">
+                    <value>Abats</value>
+                  </text>
+               <text id="/data/ORGMT:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/ORGMT:option0">
+                    <value>Oui</value>
+                  </text>	
+                 <text id="/data/ORGMT:option1">
+                    <value>Non</value>
+                  </text>				  
+				  <text id="/data/FLSHMT:label">
+                    <value>Viande</value>
+                  </text>	
+               <text id="/data/FLSHMT:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/FLSHMT:option0">
+                    <value>Oui</value>
+                  </text>	
+                 <text id="/data/FLSHMT:option1">
+                    <value>Non</value>
+                  </text>	
+				  <text id="/data/EGGS:label">
+                    <value>Oeufs</value>
+                  </text>	
+               <text id="/data/EGGS:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/EGGS:option0">
+                    <value>Oui</value>
+                  </text>	
+                 <text id="/data/EGGS:option1">
+                    <value>Non</value>
+                  </text>	
+				  <text id="/data/FISHSF:label">
+                    <value>Poissons et fruits de mer</value>
+                  </text>
+               <text id="/data/FISHSF:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/FISHSF:option0">
+                    <value>Oui</value>
+                  </text>	
+                 <text id="/data/FISHSF:option1">
+                    <value>Non</value>
+                  </text>					  
+				  <text id="/data/PULSE:label">
+                    <value>Légumineuses, noix et graines</value>
+                  </text>	
+               <text id="/data/PULSE:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/PULSE:option0">
+                    <value>Oui</value>
+                  </text>	
+                 <text id="/data/PULSE:option1">
+                    <value>Non</value>
+                  </text>
+				  <text id="/data/MILK:label">
+                    <value>Lait et produits laitiers</value>
+                  </text>	
+               <text id="/data/MILK:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/MILK:option0">
+                    <value>Oui</value>
+                  </text>	
+                 <text id="/data/MILK:option1">
+                    <value>Non</value>
+                  </text>	
+				  <text id="/data/FATS:label">
+                    <value>Huiles et matières grasses</value>
+                  </text>
+               <text id="/data/FATS:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/FATS:option0">
+                    <value>Oui</value>
+                  </text>	
+                 <text id="/data/FATS:option1">
+                    <value>Non</value>
+                  </text>	
+				  <text id="/data/SWTS:label">
+                    <value>Sucreries</value>
+                  </text>
+               <text id="/data/SWTS:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/SWTS:option0">
+                    <value>Oui</value>
+                  </text>	
+                 <text id="/data/SWTS:option1">
+                    <value>Non</value>
+                  </text>					  
+				  <text id="/data/SPICE:label">
+                    <value>Epices, condiments et boissons</value>
+                  </text>	
+	               <text id="/data/SPICE:hint">
+                    <value/>
+                  </text>
+                 <text id="/data/SPICE:option0">
+                    <value>Oui</value>
+                  </text>	
+                 <text id="/data/SPICE:option1">
+                    <value>Non</value>
+                  </text>				  
+				  <text id="/data/VINT">
+				    <value>Enquêteur : Je confirme que le questionnaire est complet.</value>
+                  </text>
+				  <text id="/data/VINT:option0">
+                    <value>Oui</value>
+                  </text>	
+				  <text id="/data/VINT:option1">
+                    <value>Non</value>
+                  </text>		
+				  <text id="/data/VSUPCON">
+				    <value>Superviseur : Je confirme que le questionnaire est complet.</value>
+                  </text>
+				  <text id="/data/VSUPCON:option0">
+                    <value>Oui</value>
+                  </text>	
+				  <text id="/data/VSUPCON:option1">
+                    <value>Non</value>
+                  </text>					  
+			</translation>
+		</itext>
+			<bind id="hidden1" nodeset="/data/Meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>			
+			<bind id="hidden2" nodeset="/data/Meta/DeviceID" type="xsd:string" jr:preload="property" jr:preloadParams="DeviceID" />
+			<bind id="hidden3" nodeset="/data/Meta/TimeStartRecorded" type="xsd:dateTime" jr:preload="timestamp" jr:preloadParams="start" />
+			<bind id="hidden4" nodeset="/data/Meta/TimeEndRecorded" type="xsd:dateTime" jr:preload="timestamp" jr:preloadParams="end" />
+			<bind nodeset="/data/CAMP" required="true()"/>
+			<bind nodeset="/data/SECTION" type= "xsd:int" required="true()" constraint="(. &gt; 0 and . &lt; 9)" jr:constraintMsg=" The number you have typed is outside the expected range (1-8)"/>
+			<bind nodeset="/data/ZONE" type= "xsd:int" required="true()" constraint="(. &gt; 0 and . &lt; 5)" jr:constraintMsg=" The number you have typed is outside the expected range (1-4)"/>			
+			<bind nodeset="/data/BLOCK" type= "xsd:int" required="true()" constraint="(. &gt; 0 and . &lt; 16)" jr:constraintMsg=" The number you have typed is outside the expected range (1-15)" />	
+			<bind nodeset="/data/SURVDATE" type="date"  />	
+			<bind nodeset="/data/CLUSTER" type= "xsd:int" required="true()" constraint="(. &gt; 0 and . &lt; 11)" jr:constraintMsg=" The number you have typed is outside the expected range (1-10)" />			
+			<bind nodeset="/data/TEAM"  type= "xsd:int" required="true()" constraint="(. &gt;= 0 and. &lt; 7)" jr:constraintMsg=" The number you have typed is outside the expected range (1-6)"/>			
+			<bind nodeset="/data/HH" type= "xsd:int" required="true()" />
+			<bind nodeset="/data/FSCONST" required="true()"/>
+			<bind nodeset="/data/RCARD" required="true()" relevant= "(selected(/data/FSCONST, '1'))"/>			
+			<bind nodeset="/data/YNORCARD" relevant= "(selected(../RCARD, '2'))" />
+			<bind nodeset="/data/YNORCARDOTH"  type= "xsd:string" relevant= "(selected(../YNORCARD, '6'))" />
+			<bind nodeset="/data/RSIZE"  relevant= "(selected(../RCARD, '1'))" />	
+			<bind nodeset="/data/RSIZEOTH"  type= "xsd:string" relevant= "(selected(../RSIZE, '6'))" />			
+			<bind nodeset="/data/GFDLAST" type="xsd:int" relevant= "(selected(../RCARD, '1'))" />
+			<bind nodeset="/data/BRW"  relevant= "(selected(/data/FSCONST, '1'))"/>	
+			<bind nodeset="/data/SOLD"  relevant= "(selected(/data/FSCONST, '1'))"/>	
+			<bind nodeset="/data/ASKMORE"  relevant= "(selected(/data/FSCONST, '1'))"/>	
+			<bind nodeset="/data/LESSMEAL"  relevant= "(selected(/data/FSCONST, '1'))"/>	
+			<bind nodeset="/data/BEG"  relevant= "(selected(/data/FSCONST, '1'))"/>	
+			<bind nodeset="/data/RISKYACT"  relevant= "(selected(/data/FSCONST, '1'))"/>	
+			<bind nodeset="/data/XFood" type= "xsd:string" readonly="true()" relevant= "(selected(/data/FSCONST, '1'))"/>			
+			<bind nodeset="/data/CRL" relevant= "(selected(/data/FSCONST, '1'))" />
+			<bind nodeset="/data/WHTRT" relevant= "(selected(/data/FSCONST, '1'))" />			
+			<bind nodeset="/data/VITAVEG" relevant= "(selected(/data/FSCONST, '1'))" />
+			<bind nodeset="/data/GREENVEG" relevant= "(selected(/data/FSCONST, '1'))" />
+			<bind nodeset="/data/OTHVEG" relevant= "(selected(/data/FSCONST, '1'))" />
+			<bind nodeset="/data/VITAFRT" relevant= "(selected(/data/FSCONST, '1'))" />
+			<bind nodeset="/data/OTHFRT" relevant= "(selected(/data/FSCONST, '1'))" />
+			<bind nodeset="/data/ORGMT" relevant= "(selected(/data/FSCONST, '1'))" />
+			<bind nodeset="/data/FLSHMT" relevant= "(selected(/data/FSCONST, '1'))" />
+			<bind nodeset="/data/EGGS" relevant= "(selected(/data/FSCONST, '1'))" />
+			<bind nodeset="/data/FISHSF" relevant= "(selected(/data/FSCONST, '1'))" />
+			<bind nodeset="/data/PULSE" relevant= "(selected(/data/FSCONST, '1'))" />
+			<bind nodeset="/data/MILK" relevant= "(selected(/data/FSCONST, '1'))" />
+			<bind nodeset="/data/FATS" relevant= "(selected(/data/FSCONST, '1'))" />	
+			<bind nodeset="/data/SWTS" relevant= "(selected(/data/FSCONST, '1'))" />
+			<bind nodeset="/data/SPICE" relevant= "(selected(/data/FSCONST, '1'))" />
+			<bind nodeset="/data/VINT"/>
+			<bind nodeset="/data/VSUPCON"/>		
+		</model>
+	</h:head>
+	<h:body>
+		<group>
+            <label ref="jr:itext('/data:label')"/>			
+			<select1 ref="/data/CAMP">
+				<label ref="jr:itext('/data/CAMP:label')"/>
+				<item>
+                      <label ref="jr:itext('/data/CAMP:option0')"/>
+                      <value>AAA</value>
+                </item>
+				<item>
+                      <label ref="jr:itext('/data/CAMP:option1')"/>
+                      <value>BBB</value>
+                </item>
+				<item>
+                      <label ref="jr:itext('/data/CAMP:option2')"/>
+                      <value>CCC</value>
+                </item>				
+			</select1>
+			<input ref="/data/SECTION">                 
+				<label ref="jr:itext('/data/SECTION:label')"/>
+			</input>
+			<input ref="/data/ZONE">                 
+				<label ref="jr:itext('/data/ZONE:label')"/>
+			</input>			
+			<input ref="/data/BLOCK">                 
+				<label ref="jr:itext('/data/BLOCK:label')"/>
+			</input>			
+			<input appearance="no-calendar" ref="/data/SURVDATE">
+				<label ref="jr:itext('/data/SURVDATE:label')"/>
+			</input>
+			<input ref="/data/CLUSTER">
+				<label ref="jr:itext('/data/CLUSTER:label')"/>
+			</input>			
+            <input ref="/data/TEAM">                 
+				<label ref="jr:itext('/data/TEAM:label')"/>
+			</input>
+            <input ref="/data/HH">                 
+				<label ref="jr:itext('/data/HH:label')"/>
+			</input>			
+            <select1 ref="/data/FSCONST"> 
+				<label ref="jr:itext('/data/FSCONST:label')"/>
+				<hint ref="jr:itext('/data/FSCONST:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/FSCONST:option0')"/>
+					<value>1</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/FSCONST:option1')"/>
+					<value>2</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/FSCONST:option2')"/>
+					<value>3</value>				
+				</item>
+			</select1>	
+		</group>
+		<group>
+            <select1 ref="/data/RCARD">
+				<label ref="jr:itext('/data/RCARD:label')"/>
+				<item>
+				<label ref="jr:itext('/data/RCARD:option0')"/>
+					<value>1</value>
+				</item>
+				<item>
+				<label ref="jr:itext('/data/RCARD:option1')"/>
+					<value>2</value>
+				</item>
+			</select1>
+            <select1 ref="/data/YNORCARD">                 
+				<label ref="jr:itext('/data/YNORCARD:label')"/>
+				<item>
+					<label ref="jr:itext('/data/YNORCARD:option0')"/>
+					<value>1</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/YNORCARD:option1')"/>
+					<value>2</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/YNORCARD:option2')"/>
+					<value>3</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/YNORCARD:option3')"/>
+					<value>4</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/YNORCARD:option4')"/>
+					<value>5</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/YNORCARD:option5')"/>
+					<value>6</value>
+				</item>
+			</select1>	
+			<input ref="/data/YNORCARDOTH">
+				<label ref="jr:itext('/data/YNORCARDOTH:label')"/>
+			</input>
+            <select1 ref="/data/RSIZE">                 
+				<label ref="jr:itext('/data/RSIZE:label')"/>
+				<item>
+					<label ref="jr:itext('/data/RSIZE:option0')"/>
+					<value>1</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/RSIZE:option1')"/>
+					<value>2</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/RSIZE:option2')"/>
+					<value>6</value>
+				</item>
+			</select1>	
+			<input ref="/data/RSIZEOTH">
+				<label ref="jr:itext('/data/RSIZEOTH:label')"/>
+			</input>			
+			<input ref="/data/GFDLAST">
+				<label ref="jr:itext('/data/GFDLAST:label')"/>
+			</input>
+
+            <select1 ref="/data/BRW">                 
+				<label ref="jr:itext('/data/BRW:label')"/>
+				<item>
+					<label ref="jr:itext('/data/BRW:option0')"/>
+					<value>1</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/BRW:option1')"/>
+					<value>2</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/BRW:option2')"/>
+					<value>8</value>
+				</item>
+			</select1>
+            <select1 ref="/data/SOLD">                 
+				<label ref="jr:itext('/data/SOLD:label')"/>
+				<item>
+					<label ref="jr:itext('/data/SOLD:option0')"/>
+					<value>1</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/SOLD:option1')"/>
+					<value>2</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/SOLD:option2')"/>
+					<value>8</value>
+				</item>
+			</select1>
+            <select1 ref="/data/ASKMORE">                 
+				<label ref="jr:itext('/data/ASKMORE:label')"/>
+				<item>
+					<label ref="jr:itext('/data/ASKMORE:option0')"/>
+					<value>1</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/ASKMORE:option1')"/>
+					<value>2</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/ASKMORE:option2')"/>
+					<value>8</value>
+				</item>
+			</select1>
+            <select1 ref="/data/LESSMEAL">                 
+				<label ref="jr:itext('/data/LESSMEAL:label')"/>
+				<item>
+					<label ref="jr:itext('/data/LESSMEAL:option0')"/>
+					<value>1</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/LESSMEAL:option1')"/>
+					<value>2</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/LESSMEAL:option2')"/>
+					<value>8</value>
+				</item>
+			</select1>
+            <select1 ref="/data/BEG">                 
+				<label ref="jr:itext('/data/BEG:label')"/>
+				<item>
+					<label ref="jr:itext('/data/BEG:option0')"/>
+					<value>1</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/BEG:option1')"/>
+					<value>2</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/BEG:option2')"/>
+					<value>8</value>
+				</item>
+			</select1>
+            <select1 ref="/data/RISKYACT">                 
+				<label ref="jr:itext('/data/RISKYACT:label')"/>
+				<item>
+					<label ref="jr:itext('/data/RISKYACT:option0')"/>
+					<value>1</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/RISKYACT:option1')"/>
+					<value>2</value>
+				</item>
+				<item>
+					<label ref="jr:itext('/data/RISKYACT:option2')"/>
+					<value>8</value>
+				</item>
+			</select1>
+			<input ref="/data/XFood">
+				<label ref="jr:itext('/data/XFood:label')"/>
+					<hint ref="jr:itext('/data/XFood:hint')"/>				
+			</input>	
+			<select1 ref="/data/CRL">
+					<label ref="jr:itext('/data/CRL:label')"/>
+					<hint ref="jr:itext('/data/CRL:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/CRL:option0')"/>
+					<value>1</value>
+				</item>	
+				<item>
+					<label ref="jr:itext('/data/CRL:option1')"/>
+					<value>0</value>
+				</item>
+            </select1>
+
+			<select1 ref="/data/WHTRT">
+					<label ref="jr:itext('/data/WHTRT:label')"/>
+					<hint ref="jr:itext('/data/WHTRT:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/WHTRT:option0')"/>
+					<value>1</value>
+				</item>	
+				<item>
+					<label ref="jr:itext('/data/WHTRT:option1')"/>
+					<value>0</value>
+				</item>
+            </select1>				
+			<select1 ref="/data/VITAVEG">
+					<label ref="jr:itext('/data/VITAVEG:label')"/>
+					<hint ref="jr:itext('/data/VITAVEG:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/VITAVEG:option0')"/>
+					<value>1</value>
+				</item>	
+				<item>
+					<label ref="jr:itext('/data/VITAVEG:option1')"/>
+					<value>0</value>
+				</item>
+            </select1>
+		
+			<select1 ref="/data/GREENVEG">
+					<label ref="jr:itext('/data/GREENVEG:label')"/>
+					<hint ref="jr:itext('/data/GREENVEG:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/GREENVEG:option0')"/>
+					<value>1</value>
+				</item>	
+				<item>
+					<label ref="jr:itext('/data/GREENVEG:option1')"/>
+					<value>0</value>
+				</item>
+            </select1>
+			<select1 ref="/data/OTHVEG">
+					<label ref="jr:itext('/data/OTHVEG:label')"/>
+					<hint ref="jr:itext('/data/OTHVEG:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/OTHVEG:option0')"/>
+					<value>1</value>
+				</item>	
+				<item>
+					<label ref="jr:itext('/data/OTHVEG:option1')"/>
+					<value>0</value>
+				</item>
+            </select1>			  
+			<select1 ref="/data/VITAFRT">
+					<label ref="jr:itext('/data/VITAFRT:label')"/>
+					<hint ref="jr:itext('/data/VITAFRT:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/VITAFRT:option0')"/>
+					<value>1</value>
+				</item>	
+				<item>
+					<label ref="jr:itext('/data/VITAFRT:option1')"/>
+					<value>0</value>
+				</item>
+            </select1>		
+			<select1 ref="/data/OTHFRT">
+					<label ref="jr:itext('/data/OTHFRT:label')"/>
+					<hint ref="jr:itext('/data/OTHFRT:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/OTHFRT:option0')"/>
+					<value>1</value>
+				</item>	
+				<item>
+					<label ref="jr:itext('/data/OTHFRT:option1')"/>
+					<value>0</value>
+				</item>
+            </select1>			
+			<select1 ref="/data/ORGMT">
+					<label ref="jr:itext('/data/ORGMT:label')"/>
+					<hint ref="jr:itext('/data/ORGMT:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/ORGMT:option0')"/>
+					<value>1</value>
+				</item>	
+				<item>
+					<label ref="jr:itext('/data/ORGMT:option1')"/>
+					<value>0</value>
+				</item>
+            </select1>			  
+			<select1 ref="/data/FLSHMT">
+					<label ref="jr:itext('/data/FLSHMT:label')"/>
+					<hint ref="jr:itext('/data/FLSHMT:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/FLSHMT:option0')"/>
+					<value>1</value>
+				</item>	
+				<item>
+					<label ref="jr:itext('/data/FLSHMT:option1')"/>
+					<value>0</value>
+				</item>
+            </select1>			  
+			<select1 ref="/data/EGGS">
+					<label ref="jr:itext('/data/EGGS:label')"/>
+					<hint ref="jr:itext('/data/EGGS:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/EGGS:option0')"/>
+					<value>1</value>
+				</item>	
+				<item>
+					<label ref="jr:itext('/data/EGGS:option1')"/>
+					<value>0</value>
+				</item>
+            </select1>			  
+			<select1 ref="/data/FISHSF">
+					<label ref="jr:itext('/data/FISHSF:label')"/>
+					<hint ref="jr:itext('/data/FISHSF:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/FISHSF:option0')"/>
+					<value>1</value>
+				</item>	
+				<item>
+					<label ref="jr:itext('/data/FISHSF:option1')"/>
+					<value>0</value>
+				</item>
+            </select1>			  
+			<select1 ref="/data/PULSE">
+					<label ref="jr:itext('/data/PULSE:label')"/>
+					<hint ref="jr:itext('/data/PULSE:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/PULSE:option0')"/>
+					<value>1</value>
+				</item>	
+				<item>
+					<label ref="jr:itext('/data/PULSE:option1')"/>
+					<value>0</value>
+				</item>
+            </select1>	
+	
+			<select1 ref="/data/MILK">
+					<label ref="jr:itext('/data/MILK:label')"/>
+					<hint ref="jr:itext('/data/MILK:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/MILK:option0')"/>
+					<value>1</value>
+				</item>	
+				<item>
+					<label ref="jr:itext('/data/MILK:option1')"/>
+					<value>0</value>
+				</item>
+            </select1>			  
+			<select1 ref="/data/FATS">
+					<label ref="jr:itext('/data/FATS:label')"/>
+					<hint ref="jr:itext('/data/FATS:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/FATS:option0')"/>
+					<value>1</value>
+				</item>	
+				<item>
+					<label ref="jr:itext('/data/FATS:option1')"/>
+					<value>0</value>
+				</item>
+            </select1>	
+			<select1 ref="/data/SWTS">
+					<label ref="jr:itext('/data/SWTS:label')"/>
+					<hint ref="jr:itext('/data/SWTS:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/SWTS:option0')"/>
+					<value>1</value>
+				</item>	
+				<item>
+					<label ref="jr:itext('/data/SWTS:option1')"/>
+					<value>0</value>
+				</item>
+            </select1>			  
+			<select1 ref="/data/SPICE">
+					<label ref="jr:itext('/data/SPICE:label')"/>
+					<hint ref="jr:itext('/data/SPICE:hint')"/>
+				<item>
+					<label ref="jr:itext('/data/SPICE:option0')"/>
+					<value>1</value>
+				</item>	
+				<item>
+					<label ref="jr:itext('/data/SPICE:option1')"/>
+					<value>0</value>
+				</item>
+            </select1>			  
+  		</group>
+		<group>
+			<select1 ref="/data/VINT">
+				<label ref="jr:itext('/data/VINT')"/>
+				<item>
+				<label ref="jr:itext('/data/VINT:option0')"/>
+					<value>1</value>
+				</item>
+				<item>
+				<label ref="jr:itext('/data/VINT:option1')"/>
+					<value>0</value>
+				</item>
+			</select1>
+			<select1 ref="/data/VSUPCON">
+				<label ref="jr:itext('/data/VSUPCON')"/>
+				<item>
+				<label ref="jr:itext('/data/VSUPCON:option0')"/>
+					<value>1</value>
+				</item>
+				<item>
+				<label ref="jr:itext('/data/VSUPCON:option1')"/>
+					<value>0</value>
+				</item>
+			</select1>		
+		</group>
+	</h:body>
+</h:html>
